@@ -1,0 +1,53 @@
+html , body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color:hsl(212, 45%, 89%);
+    font-family: OutFit, sans-serif;
+}
+
+.card {
+    padding: 15px;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+.card .article {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:245px;
+    margin-bottom: 15px ;
+}
+.card .box-qr img{
+    width: 250px;
+    border-radius:10px;
+}
+
+.card .article h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card .article p {
+    margin-top: 5px;
+    font-weight: 400;
+    text-align:center;
+    color: #a7a9b1;
+}
